@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Website | Form Validation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Create Account</h1>
+        <form action="#" method="POST">
+
+            <div class="mother ">
+                <label for="username" class="label">Username</label>
+                <div class="input-icon username">
+                    <input type="text" id="username" name="username" placeholder="florinpop17">
+                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                </div>
+                <p id="username-p">Username cannot be blank</p>
+            </div>
+            <div class="mother">
+                <label for="email">Email</label>
+                <div class="input-icon email">
+                    <input type="email" id="email" name="email" placeholder="a@florin-pop.com">
+                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                </div>
+                <p id="email-p">Email cannot be blank</p>
+            </div>
+            <div class="mother">
+                <label for="password">Password</label>
+                <div class="input-icon password">
+                    <input type="password" id="password" name="password" placeholder="Password">
+                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                </div>
+                <p id="password-p">Password cannot be blank</p>
+            </div>
+            <div class="mother">
+                <label for="password">Password check</label>
+                <div class="input-icon passwordTwo">
+                    <input type="password" id="passwordTwo" name="password" placeholder="confirm Password">
+                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                </div>
+                <p id="passwordTwo-p">Confirm password cannot be blank</p>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
