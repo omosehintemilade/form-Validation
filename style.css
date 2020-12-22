@@ -13,9 +13,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-input:after {
-    background: red;
-}
 
 .container {
     width: 250px;
